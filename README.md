@@ -20,6 +20,7 @@ Each release is a folder (`v1/`, ...) with:
   disagreed, how many evidence items are fact-checks.
 - `changes.csv`: verdict changes (old and new verdict, when, why, evidence added).
 - `claims.jsonl.gz`: every record in full, one JSON object per line.
+- `infographics.html`: the release in charts, one self-contained page; `infographics.json` holds its figures.
 - `datapackage.json` (the columns) and `README.md` (what the release is, its method version, measured results,
   caveats, scope and licence).
 

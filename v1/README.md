@@ -40,6 +40,7 @@ Agreement with known outcomes on the measured sets, and stability on re-runs. Tw
 
 - `subjects.csv`, `scores.csv`, `claims.csv.gz`, `changes.csv`: one table each; `datapackage.json` lists the columns.
 - `claims.jsonl.gz`: every record in full, one JSON object per line.
+- `infographics.html`: the release in charts, one self-contained page (`infographics.json` holds its figures).
 
 ## Licence
 
