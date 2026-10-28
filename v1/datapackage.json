@@ -1,0 +1,337 @@
+{
+  "name": "reliability-dataset",
+  "version": "1",
+  "created": "2026-10-28T22:57:22.392190+00:00",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0"
+    }
+  ],
+  "description": "Reliability scores for public figures and organisations, with every claim, verdict and evidence link behind them. Verdicts are made automatically and are not individually reviewed by a person. Method versions: 0.1.0+4bff4432, 0.1.0+ecd0c1d5",
+  "resources": [
+    {
+      "name": "subjects",
+      "path": "subjects.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "compression": null,
+      "description": "One row per subject: the latest report and how to reply.",
+      "schema": {
+        "fields": [
+          {
+            "name": "subject_id",
+            "type": "string"
+          },
+          {
+            "name": "subject_name",
+            "type": "string"
+          },
+          {
+            "name": "kind",
+            "type": "string"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          },
+          {
+            "name": "urls",
+            "type": "string"
+          },
+          {
+            "name": "report_id",
+            "type": "string"
+          },
+          {
+            "name": "report_generated_at",
+            "type": "string"
+          },
+          {
+            "name": "method_version",
+            "type": "string"
+          },
+          {
+            "name": "stale",
+            "type": "string"
+          },
+          {
+            "name": "respond_url",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "scores",
+      "path": "scores.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "compression": null,
+      "description": "One row per subject and claim type (and overall): score, 80% interval, resolved count, confidence.",
+      "schema": {
+        "fields": [
+          {
+            "name": "subject_id",
+            "type": "string"
+          },
+          {
+            "name": "subject_name",
+            "type": "string"
+          },
+          {
+            "name": "report_id",
+            "type": "string"
+          },
+          {
+            "name": "report_generated_at",
+            "type": "string"
+          },
+          {
+            "name": "method_version",
+            "type": "string"
+          },
+          {
+            "name": "claim_type",
+            "type": "string"
+          },
+          {
+            "name": "score",
+            "type": "string"
+          },
+          {
+            "name": "interval_80_low",
+            "type": "string"
+          },
+          {
+            "name": "interval_80_high",
+            "type": "string"
+          },
+          {
+            "name": "n_resolved",
+            "type": "string"
+          },
+          {
+            "name": "confidence",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "claims",
+      "path": "claims.csv.gz",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "compression": "gz",
+      "description": "One row per claim (gzip-compressed CSV): quote, source, verdict, rationale, evidence links, whether the two judges disagreed, and how many evidence items are fact-checks.",
+      "schema": {
+        "fields": [
+          {
+            "name": "subject_id",
+            "type": "string"
+          },
+          {
+            "name": "subject_name",
+            "type": "string"
+          },
+          {
+            "name": "report_id",
+            "type": "string"
+          },
+          {
+            "name": "report_generated_at",
+            "type": "string"
+          },
+          {
+            "name": "method_version",
+            "type": "string"
+          },
+          {
+            "name": "claim_id",
+            "type": "string"
+          },
+          {
+            "name": "claim_type",
+            "type": "string"
+          },
+          {
+            "name": "said_on",
+            "type": "string"
+          },
+          {
+            "name": "speaker",
+            "type": "string"
+          },
+          {
+            "name": "quote",
+            "type": "string"
+          },
+          {
+            "name": "quote_verified",
+            "type": "string"
+          },
+          {
+            "name": "proposition",
+            "type": "string"
+          },
+          {
+            "name": "broad_topic",
+            "type": "string"
+          },
+          {
+            "name": "political",
+            "type": "string"
+          },
+          {
+            "name": "outcome",
+            "type": "string"
+          },
+          {
+            "name": "on_time",
+            "type": "string"
+          },
+          {
+            "name": "evidence_basis",
+            "type": "string"
+          },
+          {
+            "name": "judges_disagree",
+            "type": "string"
+          },
+          {
+            "name": "rationale",
+            "type": "string"
+          },
+          {
+            "name": "source_url",
+            "type": "string"
+          },
+          {
+            "name": "source_title",
+            "type": "string"
+          },
+          {
+            "name": "source_published",
+            "type": "string"
+          },
+          {
+            "name": "evidence_urls",
+            "type": "string"
+          },
+          {
+            "name": "verdict_since",
+            "type": "string"
+          },
+          {
+            "name": "verdict_changes",
+            "type": "string"
+          },
+          {
+            "name": "evidence_from_factcheck",
+            "type": "string"
+          },
+          {
+            "name": "evidence_count",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "changes",
+      "path": "changes.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "compression": null,
+      "description": "One row per verdict change: old and new verdict, when, why, evidence added.",
+      "schema": {
+        "fields": [
+          {
+            "name": "subject_id",
+            "type": "string"
+          },
+          {
+            "name": "subject_name",
+            "type": "string"
+          },
+          {
+            "name": "change_id",
+            "type": "string"
+          },
+          {
+            "name": "claim_id",
+            "type": "string"
+          },
+          {
+            "name": "changed_at",
+            "type": "string"
+          },
+          {
+            "name": "reason",
+            "type": "string"
+          },
+          {
+            "name": "old_status",
+            "type": "string"
+          },
+          {
+            "name": "new_status",
+            "type": "string"
+          },
+          {
+            "name": "old_on_time",
+            "type": "string"
+          },
+          {
+            "name": "new_on_time",
+            "type": "string"
+          },
+          {
+            "name": "old_judged_on",
+            "type": "string"
+          },
+          {
+            "name": "old_method_version",
+            "type": "string"
+          },
+          {
+            "name": "method_version",
+            "type": "string"
+          },
+          {
+            "name": "run_id",
+            "type": "string"
+          },
+          {
+            "name": "note",
+            "type": "string"
+          },
+          {
+            "name": "response_id",
+            "type": "string"
+          },
+          {
+            "name": "evidence_added_urls",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "records",
+      "path": "claims.jsonl.gz",
+      "format": "jsonl",
+      "mediatype": "application/x-ndjson",
+      "compression": "gz",
+      "description": "Every record in full (subject, score, claim with evidence items and history, verdict_change)."
+    }
+  ],
+  "counts": {
+    "subjects": 31,
+    "scores": 155,
+    "claims": 29754,
+    "changes": 0
+  }
+}
