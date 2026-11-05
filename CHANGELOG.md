@@ -13,3 +13,9 @@
   - **Two subjects added:** Ørsted and GiveWell (October 2026 reports), so the release holds every subject the claims viewer at https://epistacklabs.com/explore shows, claim for claim.
   - **New file:** `claims.parquet`, the claims table as Parquet.
   - Judge B, the second judge, was unavailable for part of the re-run (the provider account ran out of credit). It was asked again for the 468 claims affected, on the same evidence; judge A's verdict stands under the judging rule, so no verdict changed, and 197 of them are now flagged as judged differently by judge B.
+- v1.1.1 (2026-11-05): 33 subjects, 28705 claims, 0 verdict changes; method 0.1.0+03d23c0e, 0.1.0+3e03e2df, 0.1.0+3f84d14d, 0.1.0+5c636cf5, 0.1.0+5e91aed6, 0.1.0+7831dd9d, 0.1.0+8bea457b, 0.1.0+c876030c.
+  What changed since v1.1, and why (no verdict or score changed):
+  - **Two claims removed for being about private life:** Mark Zuckerberg's "I love surfing." and a remark of Rodney Brooks's about a ride-hailing service that refers to his house. Neither could be checked, so no score changes. Listed in `data/corrections/2026-11-05-privacy-changes.csv`.
+  - **Replies:** a subject's `respond_url` now explains how to reply; replies are made with the form on each claim's own page at https://epistacklabs.com/claims/<claim_id>.
+  - **Deletions:** every post quoted (2,170) was found still on X by lookups on 5 November 2026; none deleted. A post found deleted later is left out of the next release; files already published are replaced by that release, and the dataset's git history keeps earlier files.
+  - `datapackage.json` now lists `claims.parquet`.

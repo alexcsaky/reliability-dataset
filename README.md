@@ -14,19 +14,20 @@ not accuracy. The method, its measured results and its caveats: https://epistack
 
 ## Releases
 
-Each release is a folder (`v1/`, `v1.1/`, ...) with:
+Each release is a folder (`v1/`, `v1.1/`, `v1.1.1/`, ...) with:
 
 - `subjects.csv`: one row per subject, with the latest report and how to reply (`respond_url`).
 - `scores.csv`: one row per subject and claim type (and overall): score, interval, resolved count, confidence.
 - `claims.csv.gz`: one row per claim: quote, source, verdict, rationale, evidence links, whether the judges
   disagreed, how many evidence items are fact-checks.
+- `claims.parquet` (from v1.1): the claims table as Parquet, the same columns and cells.
 - `changes.csv`: verdict changes (old and new verdict, when, why, evidence added).
 - `claims.jsonl.gz`: every record in full, one JSON object per line.
 - `infographics.html`: the release in charts, one self-contained page; `infographics.json` holds its figures.
 - `datapackage.json` (the columns) and `README.md` (what the release is, its method version, measured results,
   caveats, scope and licence).
 
-`CHANGELOG.md` lists the releases and what changed between them. The latest is `v1.1`.
+`CHANGELOG.md` lists the releases and what changed between them. The latest is `v1.1.1`.
 
 ## Look a subject up
 
@@ -41,10 +42,11 @@ Or read every claim in a browser at https://epistacklabs.com/explore.
 Public figures and organisations only, from their public professional output; nothing about private life; no
 inferred motives; neutral wording throughout. Politicians and officials are covered like anyone else, and
 party-political claims are tagged `political` and scored like any other claim (from release v1.1; v1 left some
-out of scores, as its README says). A subject can reply to any claim with a correction or
-counter-evidence through the `respond_url` on their row.
+out of scores, as its README says). A subject, or someone acting for them, can reply to any claim with a correction
+or counter-evidence, with the form at the foot of the claim's own page on https://epistacklabs.com (the
+`respond_url` on their row explains how replies work).
 
 ## Licence
 
 CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Quotes are short, attributed and linked to their
-source; no page text is included. Cite as: Reliability dataset v1.1, epistacklabs.com, 2026.
+source; no page text is included. Cite as: Reliability dataset v1.1.1, epistacklabs.com, 2026.
