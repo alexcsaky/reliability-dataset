@@ -16,6 +16,7 @@ For each subject (a public figure or organisation), a sample of what they have s
 - Only subjects at medium or high confidence should be compared with each other; the interval columns say how wide the uncertainty is, and `n_resolved` how many claims a score rests on.
 - `evidence_from_factcheck` counts evidence items from sites that publish verdicts themselves (fact-checkers, advertising regulators). Agreement with such a source is agreement with that source, not with the record.
 - The sampling method per subject (which documents were read, and for X posts whether by date window or by model-chosen candidates) is recorded in the full records (`claims.jsonl`, coverage fields of the report).
+- Every report in this release was produced with Claude calls run through Claude Code on a subscription plan rather than through the API. The prompts, schemas and models are the same; the harness is different, and its verdicts are not guaranteed to match an API run. Checked before release: judge A was re-run on the API on 10 claims of each subject, and 276 of 310 verdicts (89%) were the same, with no subject below 7 of 10. The files of this release do not carry a `backend` column; releases from v1.1 do.
 
 ## Scope
 
@@ -34,7 +35,8 @@ Agreement with known outcomes on the measured sets, and stability on re-runs. Tw
 - Guidance (above the range or bound): 24 of 29 the same verdict as the record, 29 in the right direction, 0 wrong, 0 unresolvable.
 - Guidance (below the range or bound): 17 of 17 the same verdict as the record, 17 in the right direction, 0 wrong, 0 unresolvable.
 - Promises: 21 of 27 the same verdict as the record, 27 in the right direction, 0 wrong, 0 unresolvable.
-- Verdicts unchanged on a re-run: ? of ?.
+- Verdicts the same when the same subjects were run twice, the second time as a refresh would run: 152 of 164.
+- Verdicts the same when claims were researched again from scratch: 102 of 109.
 
 ## Files
 

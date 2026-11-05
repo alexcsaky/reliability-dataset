@@ -3,8 +3,10 @@
 Reliability scores for public figures and organisations, with every claim, verdict and evidence link behind them,
 built by the Reliability API (https://epistacklabs.com). A subject's public statements are sampled, the checkable
 claims are checked against the public record, and each claim carries a verdict linked to its quote and its
-evidence. The score is the share of resolved claims that held up, per kind of claim and overall, with an 80%
-interval and a confidence level.
+evidence. The score is the share of resolved claims that held up, for each kind of claim (factual claims,
+predictions, promises, company guidance), with an 80% interval and a confidence level. Predictions are scored on
+their own. The overall row mixes kinds of claim in different proportions for different subjects; compare subjects
+within one kind of claim, and only at medium or high confidence.
 
 Verdicts are made automatically and are not individually reviewed by a person. Two model judges from different
 model families judge each claim; `judges_disagree` marks where they differed. Two judges agreeing is consistency,
@@ -12,7 +14,7 @@ not accuracy. The method, its measured results and its caveats: https://epistack
 
 ## Releases
 
-Each release is a folder (`v1/`, ...) with:
+Each release is a folder (`v1/`, `v1.1/`, ...) with:
 
 - `subjects.csv`: one row per subject, with the latest report and how to reply (`respond_url`).
 - `scores.csv`: one row per subject and claim type (and overall): score, interval, resolved count, confidence.
@@ -24,7 +26,7 @@ Each release is a folder (`v1/`, ...) with:
 - `datapackage.json` (the columns) and `README.md` (what the release is, its method version, measured results,
   caveats, scope and licence).
 
-`CHANGELOG.md` lists the releases. The latest is `v1` (28 October 2026): 31 public figures.
+`CHANGELOG.md` lists the releases and what changed between them. The latest is `v1.1`.
 
 ## Look a subject up
 
@@ -32,14 +34,17 @@ No key needed:
 
     curl "https://epistacklabs.com/v1/lookup?name=Jensen%20Huang"
 
+Or read every claim in a browser at https://epistacklabs.com/explore.
+
 ## Scope and right of reply
 
 Public figures and organisations only, from their public professional output; nothing about private life; no
-inferred motives; party-political claims tagged and left out of scores; political candidates and officials in
-post out of scope; neutral wording throughout. A subject can reply to any claim with a correction or
+inferred motives; neutral wording throughout. Politicians and officials are covered like anyone else, and
+party-political claims are tagged `political` and scored like any other claim (from release v1.1; v1 left some
+out of scores, as its README says). A subject can reply to any claim with a correction or
 counter-evidence through the `respond_url` on their row.
 
 ## Licence
 
 CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Quotes are short, attributed and linked to their
-source; no page text is included. Cite as: Reliability dataset v1, epistacklabs.com, 2026.
+source; no page text is included. Cite as: Reliability dataset v1.1, epistacklabs.com, 2026.

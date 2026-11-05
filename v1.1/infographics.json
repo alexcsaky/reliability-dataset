@@ -1,0 +1,3185 @@
+{
+ "figures_version": 2,
+ "version": "v1.1",
+ "built": "2026-11-04",
+ "method_versions": [
+  "0.1.0+03d23c0e",
+  "0.1.0+3e03e2df",
+  "0.1.0+3f84d14d",
+  "0.1.0+5c636cf5",
+  "0.1.0+5e91aed6",
+  "0.1.0+7831dd9d",
+  "0.1.0+8bea457b",
+  "0.1.0+c876030c"
+ ],
+ "totals": {
+  "subjects": 33,
+  "claims": 28707,
+  "checkable": 10472,
+  "researched": 3815,
+  "resolved": 2684,
+  "verdicts": {
+   "true": 976,
+   "mostly_true": 1204,
+   "mixed": 252,
+   "mostly_false": 190,
+   "false": 62
+  },
+  "judged": 3825,
+  "disagree": 1786,
+  "x_claims": 873,
+  "scored_subjects": {
+   "factual": 33,
+   "promise": 9,
+   "guidance": 1,
+   "prediction": 21
+  },
+  "ranked_subjects": {
+   "factual": 32,
+   "promise": 3,
+   "guidance": 0,
+   "prediction": 8
+  },
+  "verdicts_by_type": {
+   "factual": {
+    "true": 790,
+    "mostly_true": 1054,
+    "mixed": 214,
+    "mostly_false": 134,
+    "false": 12
+   },
+   "promise": {
+    "true": 63,
+    "mostly_true": 38,
+    "mixed": 5,
+    "mostly_false": 13,
+    "false": 10
+   },
+   "guidance": {
+    "true": 4,
+    "mostly_true": 1,
+    "mixed": 0,
+    "mostly_false": 0,
+    "false": 3
+   },
+   "prediction": {
+    "true": 119,
+    "mostly_true": 111,
+    "mixed": 33,
+    "mostly_false": 43,
+    "false": 37
+   }
+  },
+  "political": 530,
+  "political_left_out": 1
+ },
+ "subjects": [
+  {
+   "id": "s_04e2fcd6fd5e",
+   "name": "Balaji Srinivasan",
+   "kind": "person",
+   "score": 70.6,
+   "low": 64.2,
+   "high": 76.7,
+   "n": 79,
+   "confidence": "high",
+   "types": {
+    "factual": {
+     "score": 71.9,
+     "low": 64.6,
+     "high": 78.9,
+     "n": 60,
+     "confidence": "high"
+    },
+    "promise": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 1,
+     "confidence": "none"
+    },
+    "guidance": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 0,
+     "confidence": "none"
+    },
+    "prediction": {
+     "score": 66.3,
+     "low": 53.5,
+     "high": 78.5,
+     "n": 19,
+     "confidence": "medium"
+    }
+   },
+   "verdicts": {
+    "true": 23,
+    "mostly_true": 37,
+    "mixed": 9,
+    "mostly_false": 11,
+    "false": 0
+   },
+   "unresolvable": 22,
+   "verdicts_by_type": {
+    "factual": {
+     "true": 19,
+     "mostly_true": 27,
+     "mixed": 5,
+     "mostly_false": 9,
+     "false": 0
+    },
+    "promise": {
+     "true": 0,
+     "mostly_true": 1,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "guidance": {
+     "true": 0,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "prediction": {
+     "true": 4,
+     "mostly_true": 9,
+     "mixed": 4,
+     "mostly_false": 2,
+     "false": 0
+    }
+   },
+   "unresolvable_by_type": {
+    "factual": 17,
+    "promise": 1,
+    "guidance": 0,
+    "prediction": 4
+   },
+   "judged": 102,
+   "disagree": 55,
+   "x_claims": 90,
+   "respond_url": "https://epistacklabs.com/request-access?subject=s_04e2fcd6fd5e",
+   "generated_at": "2026-11-04",
+   "mix": {
+    "factual": 60,
+    "prediction": 19
+   }
+  },
+  {
+   "id": "s_522ea0247b1a",
+   "name": "Bill Ackman",
+   "kind": "person",
+   "score": 74.5,
+   "low": 69.0,
+   "high": 79.8,
+   "n": 96,
+   "confidence": "high",
+   "types": {
+    "factual": {
+     "score": 75.6,
+     "low": 69.5,
+     "high": 81.4,
+     "n": 82,
+     "confidence": "high"
+    },
+    "promise": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 3,
+     "confidence": "none"
+    },
+    "guidance": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 0,
+     "confidence": "none"
+    },
+    "prediction": {
+     "score": 68.1,
+     "low": 53.7,
+     "high": 81.5,
+     "n": 14,
+     "confidence": "low"
+    }
+   },
+   "verdicts": {
+    "true": 35,
+    "mostly_true": 42,
+    "mixed": 16,
+    "mostly_false": 3,
+    "false": 3
+   },
+   "unresolvable": 49,
+   "verdicts_by_type": {
+    "factual": {
+     "true": 28,
+     "mostly_true": 39,
+     "mixed": 10,
+     "mostly_false": 3,
+     "false": 2
+    },
+    "promise": {
+     "true": 1,
+     "mostly_true": 0,
+     "mixed": 2,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "guidance": {
+     "true": 0,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "prediction": {
+     "true": 6,
+     "mostly_true": 3,
+     "mixed": 4,
+     "mostly_false": 0,
+     "false": 1
+    }
+   },
+   "unresolvable_by_type": {
+    "factual": 36,
+    "promise": 6,
+    "guidance": 0,
+    "prediction": 7
+   },
+   "judged": 149,
+   "disagree": 73,
+   "x_claims": 30,
+   "respond_url": "https://epistacklabs.com/request-access?subject=s_522ea0247b1a",
+   "generated_at": "2026-11-04",
+   "mix": {
+    "factual": 82,
+    "prediction": 14
+   }
+  },
+  {
+   "id": "s_d4131c94e1f4",
+   "name": "Bill Gates",
+   "kind": "person",
+   "score": 74.6,
+   "low": 68.9,
+   "high": 80.2,
+   "n": 88,
+   "confidence": "high",
+   "types": {
+    "factual": {
+     "score": 75.9,
+     "low": 69.9,
+     "high": 81.6,
+     "n": 82,
+     "confidence": "high"
+    },
+    "promise": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 0,
+     "confidence": "none"
+    },
+    "guidance": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 0,
+     "confidence": "none"
+    },
+    "prediction": {
+     "score": 57.5,
+     "low": 37.5,
+     "high": 76.8,
+     "n": 6,
+     "confidence": "low"
+    }
+   },
+   "verdicts": {
+    "true": 35,
+    "mostly_true": 34,
+    "mixed": 8,
+    "mostly_false": 10,
+    "false": 1
+   },
+   "unresolvable": 16,
+   "verdicts_by_type": {
+    "factual": {
+     "true": 33,
+     "mostly_true": 33,
+     "mixed": 7,
+     "mostly_false": 8,
+     "false": 1
+    },
+    "promise": {
+     "true": 0,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "guidance": {
+     "true": 0,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "prediction": {
+     "true": 2,
+     "mostly_true": 1,
+     "mixed": 1,
+     "mostly_false": 2,
+     "false": 0
+    }
+   },
+   "unresolvable_by_type": {
+    "factual": 15,
+    "promise": 0,
+    "guidance": 0,
+    "prediction": 1
+   },
+   "judged": 104,
+   "disagree": 46,
+   "x_claims": 35,
+   "respond_url": "https://epistacklabs.com/request-access?subject=s_d4131c94e1f4",
+   "generated_at": "2026-11-04",
+   "mix": {
+    "factual": 82,
+    "prediction": 6
+   }
+  },
+  {
+   "id": "s_518025070c64",
+   "name": "Daniela Amodei",
+   "kind": "person",
+   "score": 82.7,
+   "low": 77.5,
+   "high": 87.6,
+   "n": 87,
+   "confidence": "high",
+   "types": {
+    "factual": {
+     "score": 82.7,
+     "low": 77.5,
+     "high": 87.6,
+     "n": 87,
+     "confidence": "high"
+    },
+    "promise": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 0,
+     "confidence": "none"
+    },
+    "guidance": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 0,
+     "confidence": "none"
+    },
+    "prediction": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 2,
+     "confidence": "none"
+    }
+   },
+   "verdicts": {
+    "true": 44,
+    "mostly_true": 37,
+    "mixed": 5,
+    "mostly_false": 3,
+    "false": 0
+   },
+   "unresolvable": 21,
+   "verdicts_by_type": {
+    "factual": {
+     "true": 43,
+     "mostly_true": 36,
+     "mixed": 5,
+     "mostly_false": 3,
+     "false": 0
+    },
+    "promise": {
+     "true": 0,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "guidance": {
+     "true": 0,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "prediction": {
+     "true": 1,
+     "mostly_true": 1,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    }
+   },
+   "unresolvable_by_type": {
+    "factual": 20,
+    "promise": 1,
+    "guidance": 0,
+    "prediction": 0
+   },
+   "judged": 110,
+   "disagree": 52,
+   "x_claims": 3,
+   "respond_url": "https://epistacklabs.com/request-access?subject=s_518025070c64",
+   "generated_at": "2026-11-04",
+   "mix": {
+    "factual": 87
+   }
+  },
+  {
+   "id": "s_9d40b783884f",
+   "name": "Dario Amodei",
+   "kind": "person",
+   "score": 72.0,
+   "low": 66.3,
+   "high": 77.5,
+   "n": 93,
+   "confidence": "high",
+   "types": {
+    "factual": {
+     "score": 75.6,
+     "low": 69.4,
+     "high": 81.6,
+     "n": 76,
+     "confidence": "high"
+    },
+    "promise": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 4,
+     "confidence": "none"
+    },
+    "guidance": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 0,
+     "confidence": "none"
+    },
+    "prediction": {
+     "score": 56.0,
+     "low": 42.1,
+     "high": 69.6,
+     "n": 17,
+     "confidence": "medium"
+    }
+   },
+   "verdicts": {
+    "true": 28,
+    "mostly_true": 49,
+    "mixed": 12,
+    "mostly_false": 4,
+    "false": 4
+   },
+   "unresolvable": 38,
+   "verdicts_by_type": {
+    "factual": {
+     "true": 22,
+     "mostly_true": 40,
+     "mixed": 12,
+     "mostly_false": 2,
+     "false": 0
+    },
+    "promise": {
+     "true": 2,
+     "mostly_true": 2,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "guidance": {
+     "true": 0,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "prediction": {
+     "true": 4,
+     "mostly_true": 7,
+     "mixed": 0,
+     "mostly_false": 2,
+     "false": 4
+    }
+   },
+   "unresolvable_by_type": {
+    "factual": 30,
+    "promise": 3,
+    "guidance": 0,
+    "prediction": 5
+   },
+   "judged": 136,
+   "disagree": 63,
+   "x_claims": 20,
+   "respond_url": "https://epistacklabs.com/request-access?subject=s_9d40b783884f",
+   "generated_at": "2026-11-04",
+   "mix": {
+    "factual": 76,
+    "prediction": 17
+   }
+  },
+  {
+   "id": "s_2e4e97e0a99e",
+   "name": "Demis Hassabis",
+   "kind": "person",
+   "score": 80.2,
+   "low": 74.9,
+   "high": 85.3,
+   "n": 84,
+   "confidence": "high",
+   "types": {
+    "factual": {
+     "score": 81.4,
+     "low": 75.8,
+     "high": 86.7,
+     "n": 78,
+     "confidence": "high"
+    },
+    "promise": {
+     "score": 65.0,
+     "low": 45.4,
+     "high": 83.1,
+     "n": 6,
+     "confidence": "low"
+    },
+    "guidance": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 0,
+     "confidence": "none"
+    },
+    "prediction": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 2,
+     "confidence": "none"
+    }
+   },
+   "verdicts": {
+    "true": 37,
+    "mostly_true": 42,
+    "mixed": 5,
+    "mostly_false": 1,
+    "false": 1
+   },
+   "unresolvable": 16,
+   "verdicts_by_type": {
+    "factual": {
+     "true": 32,
+     "mostly_true": 40,
+     "mixed": 5,
+     "mostly_false": 1,
+     "false": 0
+    },
+    "promise": {
+     "true": 3,
+     "mostly_true": 2,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 1
+    },
+    "guidance": {
+     "true": 0,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "prediction": {
+     "true": 2,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    }
+   },
+   "unresolvable_by_type": {
+    "factual": 15,
+    "promise": 0,
+    "guidance": 0,
+    "prediction": 1
+   },
+   "judged": 102,
+   "disagree": 49,
+   "x_claims": 50,
+   "respond_url": "https://epistacklabs.com/request-access?subject=s_2e4e97e0a99e",
+   "generated_at": "2026-11-04",
+   "mix": {
+    "factual": 78,
+    "promise": 6
+   }
+  },
+  {
+   "id": "s_20590849a76e",
+   "name": "Eliezer Yudkowsky",
+   "kind": "person",
+   "score": 74.4,
+   "low": 68.4,
+   "high": 80.2,
+   "n": 79,
+   "confidence": "high",
+   "types": {
+    "factual": {
+     "score": 76.0,
+     "low": 69.6,
+     "high": 82.1,
+     "n": 71,
+     "confidence": "high"
+    },
+    "promise": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 0,
+     "confidence": "none"
+    },
+    "guidance": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 0,
+     "confidence": "none"
+    },
+    "prediction": {
+     "score": 60.4,
+     "low": 42.2,
+     "high": 77.8,
+     "n": 8,
+     "confidence": "low"
+    }
+   },
+   "verdicts": {
+    "true": 21,
+    "mostly_true": 46,
+    "mixed": 8,
+    "mostly_false": 3,
+    "false": 1
+   },
+   "unresolvable": 31,
+   "verdicts_by_type": {
+    "factual": {
+     "true": 18,
+     "mostly_true": 44,
+     "mixed": 7,
+     "mostly_false": 2,
+     "false": 0
+    },
+    "promise": {
+     "true": 0,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "guidance": {
+     "true": 0,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "prediction": {
+     "true": 3,
+     "mostly_true": 2,
+     "mixed": 1,
+     "mostly_false": 1,
+     "false": 1
+    }
+   },
+   "unresolvable_by_type": {
+    "factual": 29,
+    "promise": 0,
+    "guidance": 0,
+    "prediction": 2
+   },
+   "judged": 110,
+   "disagree": 58,
+   "x_claims": 38,
+   "respond_url": "https://epistacklabs.com/request-access?subject=s_20590849a76e",
+   "generated_at": "2026-11-04",
+   "mix": {
+    "factual": 71,
+    "prediction": 8
+   }
+  },
+  {
+   "id": "s_82e4693f2bb1",
+   "name": "Elon Musk",
+   "kind": "person",
+   "score": 57.6,
+   "low": 51.8,
+   "high": 63.4,
+   "n": 94,
+   "confidence": "high",
+   "types": {
+    "factual": {
+     "score": 70.5,
+     "low": 61.0,
+     "high": 79.6,
+     "n": 35,
+     "confidence": "medium"
+    },
+    "promise": {
+     "score": 53.4,
+     "low": 42.9,
+     "high": 63.8,
+     "n": 33,
+     "confidence": "medium"
+    },
+    "guidance": {
+     "score": 44.4,
+     "low": 24.0,
+     "high": 65.5,
+     "n": 5,
+     "confidence": "low"
+    },
+    "prediction": {
+     "score": 46.0,
+     "low": 33.4,
+     "high": 58.8,
+     "n": 21,
+     "confidence": "medium"
+    }
+   },
+   "verdicts": {
+    "true": 28,
+    "mostly_true": 24,
+    "mixed": 7,
+    "mostly_false": 21,
+    "false": 14
+   },
+   "unresolvable": 22,
+   "verdicts_by_type": {
+    "factual": {
+     "true": 12,
+     "mostly_true": 15,
+     "mixed": 1,
+     "mostly_false": 7,
+     "false": 0
+    },
+    "promise": {
+     "true": 11,
+     "mostly_true": 5,
+     "mixed": 2,
+     "mostly_false": 8,
+     "false": 7
+    },
+    "guidance": {
+     "true": 2,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 3
+    },
+    "prediction": {
+     "true": 3,
+     "mostly_true": 4,
+     "mixed": 4,
+     "mostly_false": 6,
+     "false": 4
+    }
+   },
+   "unresolvable_by_type": {
+    "factual": 6,
+    "promise": 9,
+    "guidance": 1,
+    "prediction": 6
+   },
+   "judged": 116,
+   "disagree": 51,
+   "x_claims": 40,
+   "respond_url": "https://epistacklabs.com/request-access?subject=s_82e4693f2bb1",
+   "generated_at": "2026-11-04",
+   "mix": {
+    "factual": 35,
+    "promise": 33,
+    "guidance": 5,
+    "prediction": 21
+   }
+  },
+  {
+   "id": "s_30f7b5238473",
+   "name": "Gary Marcus",
+   "kind": "person",
+   "score": 79.3,
+   "low": 74.2,
+   "high": 84.1,
+   "n": 102,
+   "confidence": "high",
+   "types": {
+    "factual": {
+     "score": 78.7,
+     "low": 72.2,
+     "high": 84.8,
+     "n": 64,
+     "confidence": "high"
+    },
+    "promise": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 1,
+     "confidence": "none"
+    },
+    "guidance": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 0,
+     "confidence": "none"
+    },
+    "prediction": {
+     "score": 80.4,
+     "low": 72.3,
+     "high": 87.8,
+     "n": 38,
+     "confidence": "medium"
+    }
+   },
+   "verdicts": {
+    "true": 42,
+    "mostly_true": 52,
+    "mixed": 5,
+    "mostly_false": 3,
+    "false": 1
+   },
+   "unresolvable": 43,
+   "verdicts_by_type": {
+    "factual": {
+     "true": 24,
+     "mostly_true": 33,
+     "mixed": 4,
+     "mostly_false": 3,
+     "false": 0
+    },
+    "promise": {
+     "true": 1,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "guidance": {
+     "true": 0,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "prediction": {
+     "true": 17,
+     "mostly_true": 19,
+     "mixed": 1,
+     "mostly_false": 0,
+     "false": 1
+    }
+   },
+   "unresolvable_by_type": {
+    "factual": 23,
+    "promise": 1,
+    "guidance": 0,
+    "prediction": 19
+   },
+   "judged": 147,
+   "disagree": 75,
+   "x_claims": 39,
+   "respond_url": "https://epistacklabs.com/request-access?subject=s_30f7b5238473",
+   "generated_at": "2026-11-04",
+   "mix": {
+    "factual": 64,
+    "prediction": 38
+   }
+  },
+  {
+   "id": "s_4a5a40990932",
+   "name": "GiveWell",
+   "kind": "organisation",
+   "score": 74.5,
+   "low": 64.3,
+   "high": 84.1,
+   "n": 22,
+   "confidence": "medium",
+   "types": {
+    "factual": {
+     "score": 76.3,
+     "low": 63.4,
+     "high": 87.9,
+     "n": 15,
+     "confidence": "medium"
+    },
+    "promise": {
+     "score": 70.5,
+     "low": 52.4,
+     "high": 86.7,
+     "n": 7,
+     "confidence": "low"
+    },
+    "guidance": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 0,
+     "confidence": null
+    },
+    "prediction": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 1,
+     "confidence": "none"
+    }
+   },
+   "verdicts": {
+    "true": 13,
+    "mostly_true": 8,
+    "mixed": 0,
+    "mostly_false": 1,
+    "false": 1
+   },
+   "unresolvable": 14,
+   "verdicts_by_type": {
+    "factual": {
+     "true": 8,
+     "mostly_true": 6,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 1
+    },
+    "promise": {
+     "true": 4,
+     "mostly_true": 2,
+     "mixed": 0,
+     "mostly_false": 1,
+     "false": 0
+    },
+    "guidance": {
+     "true": 0,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "prediction": {
+     "true": 1,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    }
+   },
+   "unresolvable_by_type": {
+    "factual": 10,
+    "promise": 3,
+    "guidance": 0,
+    "prediction": 1
+   },
+   "judged": 37,
+   "disagree": 9,
+   "x_claims": 0,
+   "respond_url": "https://epistacklabs.com/request-access?subject=s_4a5a40990932",
+   "generated_at": "2026-10-10",
+   "mix": {
+    "factual": 15,
+    "promise": 7
+   }
+  },
+  {
+   "id": "s_929d91d332a2",
+   "name": "Jeff Bezos",
+   "kind": "person",
+   "score": 83.8,
+   "low": 78.8,
+   "high": 88.5,
+   "n": 90,
+   "confidence": "high",
+   "types": {
+    "factual": {
+     "score": 83.8,
+     "low": 78.8,
+     "high": 88.5,
+     "n": 90,
+     "confidence": "high"
+    },
+    "promise": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 3,
+     "confidence": "none"
+    },
+    "guidance": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 1,
+     "confidence": "none"
+    },
+    "prediction": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 2,
+     "confidence": "none"
+    }
+   },
+   "verdicts": {
+    "true": 53,
+    "mostly_true": 35,
+    "mixed": 3,
+    "mostly_false": 4,
+    "false": 1
+   },
+   "unresolvable": 27,
+   "verdicts_by_type": {
+    "factual": {
+     "true": 49,
+     "mostly_true": 34,
+     "mixed": 3,
+     "mostly_false": 3,
+     "false": 1
+    },
+    "promise": {
+     "true": 2,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 1,
+     "false": 0
+    },
+    "guidance": {
+     "true": 1,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "prediction": {
+     "true": 1,
+     "mostly_true": 1,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    }
+   },
+   "unresolvable_by_type": {
+    "factual": 24,
+    "promise": 0,
+    "guidance": 0,
+    "prediction": 3
+   },
+   "judged": 124,
+   "disagree": 49,
+   "x_claims": 17,
+   "respond_url": "https://epistacklabs.com/request-access?subject=s_929d91d332a2",
+   "generated_at": "2026-11-04",
+   "mix": {
+    "factual": 90
+   }
+  },
+  {
+   "id": "s_b0dbb808b887",
+   "name": "Jensen Huang",
+   "kind": "person",
+   "score": 72.4,
+   "low": 66.8,
+   "high": 77.9,
+   "n": 101,
+   "confidence": "high",
+   "types": {
+    "factual": {
+     "score": 72.4,
+     "low": 66.7,
+     "high": 77.9,
+     "n": 101,
+     "confidence": "high"
+    },
+    "promise": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 4,
+     "confidence": "none"
+    },
+    "guidance": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 1,
+     "confidence": "none"
+    },
+    "prediction": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 1,
+     "confidence": "none"
+    }
+   },
+   "verdicts": {
+    "true": 32,
+    "mostly_true": 49,
+    "mixed": 14,
+    "mostly_false": 11,
+    "false": 1
+   },
+   "unresolvable": 32,
+   "verdicts_by_type": {
+    "factual": {
+     "true": 29,
+     "mostly_true": 48,
+     "mixed": 13,
+     "mostly_false": 10,
+     "false": 1
+    },
+    "promise": {
+     "true": 2,
+     "mostly_true": 0,
+     "mixed": 1,
+     "mostly_false": 1,
+     "false": 0
+    },
+    "guidance": {
+     "true": 1,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "prediction": {
+     "true": 0,
+     "mostly_true": 1,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    }
+   },
+   "unresolvable_by_type": {
+    "factual": 29,
+    "promise": 1,
+    "guidance": 0,
+    "prediction": 2
+   },
+   "judged": 139,
+   "disagree": 78,
+   "x_claims": 0,
+   "respond_url": "https://epistacklabs.com/request-access?subject=s_b0dbb808b887",
+   "generated_at": "2026-11-03",
+   "mix": {
+    "factual": 101
+   }
+  },
+  {
+   "id": "s_ff4b9ff6218b",
+   "name": "Jeremy Grantham",
+   "kind": "person",
+   "score": 65.0,
+   "low": 58.5,
+   "high": 71.5,
+   "n": 76,
+   "confidence": "high",
+   "types": {
+    "factual": {
+     "score": 69.5,
+     "low": 61.0,
+     "high": 77.6,
+     "n": 46,
+     "confidence": "medium"
+    },
+    "promise": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 0,
+     "confidence": "none"
+    },
+    "guidance": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 0,
+     "confidence": "none"
+    },
+    "prediction": {
+     "score": 58.1,
+     "low": 47.2,
+     "high": 68.8,
+     "n": 30,
+     "confidence": "medium"
+    }
+   },
+   "verdicts": {
+    "true": 17,
+    "mostly_true": 33,
+    "mixed": 12,
+    "mostly_false": 11,
+    "false": 3
+   },
+   "unresolvable": 72,
+   "verdicts_by_type": {
+    "factual": {
+     "true": 9,
+     "mostly_true": 25,
+     "mixed": 8,
+     "mostly_false": 4,
+     "false": 0
+    },
+    "promise": {
+     "true": 0,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "guidance": {
+     "true": 0,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "prediction": {
+     "true": 8,
+     "mostly_true": 8,
+     "mixed": 4,
+     "mostly_false": 7,
+     "false": 3
+    }
+   },
+   "unresolvable_by_type": {
+    "factual": 36,
+    "promise": 2,
+    "guidance": 0,
+    "prediction": 34
+   },
+   "judged": 148,
+   "disagree": 81,
+   "x_claims": 0,
+   "respond_url": "https://epistacklabs.com/request-access?subject=s_ff4b9ff6218b",
+   "generated_at": "2026-11-03",
+   "mix": {
+    "factual": 46,
+    "prediction": 30
+   }
+  },
+  {
+   "id": "s_9441f4ed2e2a",
+   "name": "Jim Cramer",
+   "kind": "person",
+   "score": 75.0,
+   "low": 60.8,
+   "high": 87.8,
+   "n": 12,
+   "confidence": "low",
+   "types": {
+    "factual": {
+     "score": 75.0,
+     "low": 60.7,
+     "high": 87.8,
+     "n": 12,
+     "confidence": "low"
+    },
+    "promise": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 0,
+     "confidence": "none"
+    },
+    "guidance": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 0,
+     "confidence": "none"
+    },
+    "prediction": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 2,
+     "confidence": "none"
+    }
+   },
+   "verdicts": {
+    "true": 7,
+    "mostly_true": 3,
+    "mixed": 1,
+    "mostly_false": 1,
+    "false": 2
+   },
+   "unresolvable": 6,
+   "verdicts_by_type": {
+    "factual": {
+     "true": 7,
+     "mostly_true": 3,
+     "mixed": 1,
+     "mostly_false": 1,
+     "false": 0
+    },
+    "promise": {
+     "true": 0,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "guidance": {
+     "true": 0,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "prediction": {
+     "true": 0,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 2
+    }
+   },
+   "unresolvable_by_type": {
+    "factual": 6,
+    "promise": 0,
+    "guidance": 0,
+    "prediction": 0
+   },
+   "judged": 20,
+   "disagree": 5,
+   "x_claims": 18,
+   "respond_url": "https://epistacklabs.com/request-access?subject=s_9441f4ed2e2a",
+   "generated_at": "2026-11-04",
+   "mix": {
+    "factual": 12
+   }
+  },
+  {
+   "id": "s_5bd21b75c9f7",
+   "name": "Marc Andreessen",
+   "kind": "person",
+   "score": 66.4,
+   "low": 60.6,
+   "high": 72.0,
+   "n": 105,
+   "confidence": "high",
+   "types": {
+    "factual": {
+     "score": 67.1,
+     "low": 60.9,
+     "high": 73.1,
+     "n": 94,
+     "confidence": "high"
+    },
+    "promise": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 0,
+     "confidence": "none"
+    },
+    "guidance": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 0,
+     "confidence": "none"
+    },
+    "prediction": {
+     "score": 60.0,
+     "low": 43.7,
+     "high": 75.7,
+     "n": 11,
+     "confidence": "low"
+    }
+   },
+   "verdicts": {
+    "true": 20,
+    "mostly_true": 50,
+    "mixed": 19,
+    "mostly_false": 15,
+    "false": 1
+   },
+   "unresolvable": 39,
+   "verdicts_by_type": {
+    "factual": {
+     "true": 17,
+     "mostly_true": 46,
+     "mixed": 18,
+     "mostly_false": 13,
+     "false": 0
+    },
+    "promise": {
+     "true": 0,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "guidance": {
+     "true": 0,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "prediction": {
+     "true": 3,
+     "mostly_true": 4,
+     "mixed": 1,
+     "mostly_false": 2,
+     "false": 1
+    }
+   },
+   "unresolvable_by_type": {
+    "factual": 33,
+    "promise": 3,
+    "guidance": 0,
+    "prediction": 3
+   },
+   "judged": 144,
+   "disagree": 79,
+   "x_claims": 4,
+   "respond_url": "https://epistacklabs.com/request-access?subject=s_5bd21b75c9f7",
+   "generated_at": "2026-11-04",
+   "mix": {
+    "factual": 94,
+    "prediction": 11
+   }
+  },
+  {
+   "id": "s_6e4aa5b869ed",
+   "name": "Mark Zuckerberg",
+   "kind": "person",
+   "score": 81.3,
+   "low": 76.0,
+   "high": 86.2,
+   "n": 86,
+   "confidence": "high",
+   "types": {
+    "factual": {
+     "score": 80.4,
+     "low": 74.4,
+     "high": 86.1,
+     "n": 70,
+     "confidence": "high"
+    },
+    "promise": {
+     "score": 85.0,
+     "low": 74.3,
+     "high": 94.1,
+     "n": 16,
+     "confidence": "medium"
+    },
+    "guidance": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 0,
+     "confidence": "none"
+    },
+    "prediction": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 4,
+     "confidence": "none"
+    }
+   },
+   "verdicts": {
+    "true": 42,
+    "mostly_true": 40,
+    "mixed": 6,
+    "mostly_false": 2,
+    "false": 0
+   },
+   "unresolvable": 32,
+   "verdicts_by_type": {
+    "factual": {
+     "true": 29,
+     "mostly_true": 34,
+     "mixed": 5,
+     "mostly_false": 2,
+     "false": 0
+    },
+    "promise": {
+     "true": 12,
+     "mostly_true": 4,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "guidance": {
+     "true": 0,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "prediction": {
+     "true": 1,
+     "mostly_true": 2,
+     "mixed": 1,
+     "mostly_false": 0,
+     "false": 0
+    }
+   },
+   "unresolvable_by_type": {
+    "factual": 21,
+    "promise": 6,
+    "guidance": 0,
+    "prediction": 5
+   },
+   "judged": 122,
+   "disagree": 51,
+   "x_claims": 0,
+   "respond_url": "https://epistacklabs.com/request-access?subject=s_6e4aa5b869ed",
+   "generated_at": "2026-11-03",
+   "mix": {
+    "factual": 70,
+    "promise": 16
+   }
+  },
+  {
+   "id": "s_8614bc0c3a52",
+   "name": "Michael Burry",
+   "kind": "person",
+   "score": 72.1,
+   "low": 66.1,
+   "high": 77.9,
+   "n": 87,
+   "confidence": "high",
+   "types": {
+    "factual": {
+     "score": 72.6,
+     "low": 66.3,
+     "high": 78.7,
+     "n": 80,
+     "confidence": "high"
+    },
+    "promise": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 1,
+     "confidence": "none"
+    },
+    "guidance": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 0,
+     "confidence": "none"
+    },
+    "prediction": {
+     "score": 65.9,
+     "low": 47.3,
+     "high": 83.1,
+     "n": 7,
+     "confidence": "low"
+    }
+   },
+   "verdicts": {
+    "true": 28,
+    "mostly_true": 38,
+    "mixed": 14,
+    "mostly_false": 7,
+    "false": 1
+   },
+   "unresolvable": 61,
+   "verdicts_by_type": {
+    "factual": {
+     "true": 24,
+     "mostly_true": 36,
+     "mixed": 13,
+     "mostly_false": 6,
+     "false": 1
+    },
+    "promise": {
+     "true": 1,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "guidance": {
+     "true": 0,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "prediction": {
+     "true": 3,
+     "mostly_true": 2,
+     "mixed": 1,
+     "mostly_false": 1,
+     "false": 0
+    }
+   },
+   "unresolvable_by_type": {
+    "factual": 49,
+    "promise": 4,
+    "guidance": 0,
+    "prediction": 8
+   },
+   "judged": 149,
+   "disagree": 67,
+   "x_claims": 32,
+   "respond_url": "https://epistacklabs.com/request-access?subject=s_8614bc0c3a52",
+   "generated_at": "2026-11-04",
+   "mix": {
+    "factual": 80,
+    "prediction": 7
+   }
+  },
+  {
+   "id": "s_18131a9b225c",
+   "name": "Nassim Taleb",
+   "kind": "person",
+   "score": 70.8,
+   "low": 65.0,
+   "high": 76.5,
+   "n": 97,
+   "confidence": "high",
+   "types": {
+    "factual": {
+     "score": 70.8,
+     "low": 64.9,
+     "high": 76.5,
+     "n": 97,
+     "confidence": "high"
+    },
+    "promise": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 0,
+     "confidence": "none"
+    },
+    "guidance": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 0,
+     "confidence": "none"
+    },
+    "prediction": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 0,
+     "confidence": "none"
+    }
+   },
+   "verdicts": {
+    "true": 22,
+    "mostly_true": 51,
+    "mixed": 14,
+    "mostly_false": 9,
+    "false": 1
+   },
+   "unresolvable": 51,
+   "verdicts_by_type": {
+    "factual": {
+     "true": 22,
+     "mostly_true": 51,
+     "mixed": 14,
+     "mostly_false": 9,
+     "false": 1
+    },
+    "promise": {
+     "true": 0,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "guidance": {
+     "true": 0,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "prediction": {
+     "true": 0,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    }
+   },
+   "unresolvable_by_type": {
+    "factual": 51,
+    "promise": 0,
+    "guidance": 0,
+    "prediction": 0
+   },
+   "judged": 148,
+   "disagree": 64,
+   "x_claims": 34,
+   "respond_url": "https://epistacklabs.com/request-access?subject=s_18131a9b225c",
+   "generated_at": "2026-11-04",
+   "mix": {
+    "factual": 97
+   }
+  },
+  {
+   "id": "s_3da87e1aa73b",
+   "name": "Nate Silver",
+   "kind": "person",
+   "score": 75.3,
+   "low": 69.7,
+   "high": 80.6,
+   "n": 85,
+   "confidence": "high",
+   "types": {
+    "factual": {
+     "score": 79.9,
+     "low": 73.4,
+     "high": 85.9,
+     "n": 63,
+     "confidence": "high"
+    },
+    "promise": {
+     "score": 66.7,
+     "low": 46.2,
+     "high": 85.3,
+     "n": 5,
+     "confidence": "low"
+    },
+    "guidance": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 0,
+     "confidence": "none"
+    },
+    "prediction": {
+     "score": 60.7,
+     "low": 47.0,
+     "high": 74.0,
+     "n": 17,
+     "confidence": "medium"
+    }
+   },
+   "verdicts": {
+    "true": 34,
+    "mostly_true": 37,
+    "mixed": 7,
+    "mostly_false": 4,
+    "false": 3
+   },
+   "unresolvable": 54,
+   "verdicts_by_type": {
+    "factual": {
+     "true": 26,
+     "mostly_true": 30,
+     "mixed": 6,
+     "mostly_false": 0,
+     "false": 1
+    },
+    "promise": {
+     "true": 3,
+     "mostly_true": 1,
+     "mixed": 0,
+     "mostly_false": 1,
+     "false": 0
+    },
+    "guidance": {
+     "true": 0,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "prediction": {
+     "true": 5,
+     "mostly_true": 6,
+     "mixed": 1,
+     "mostly_false": 3,
+     "false": 2
+    }
+   },
+   "unresolvable_by_type": {
+    "factual": 39,
+    "promise": 5,
+    "guidance": 0,
+    "prediction": 10
+   },
+   "judged": 139,
+   "disagree": 65,
+   "x_claims": 55,
+   "respond_url": "https://epistacklabs.com/request-access?subject=s_3da87e1aa73b",
+   "generated_at": "2026-11-04",
+   "mix": {
+    "factual": 63,
+    "promise": 5,
+    "prediction": 17
+   }
+  },
+  {
+   "id": "s_81c7a622055e",
+   "name": "Nouriel Roubini",
+   "kind": "person",
+   "score": 63.3,
+   "low": 56.4,
+   "high": 70.0,
+   "n": 66,
+   "confidence": "high",
+   "types": {
+    "factual": {
+     "score": 72.1,
+     "low": 64.0,
+     "high": 79.9,
+     "n": 48,
+     "confidence": "medium"
+    },
+    "promise": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 0,
+     "confidence": "none"
+    },
+    "guidance": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 0,
+     "confidence": "none"
+    },
+    "prediction": {
+     "score": 39.8,
+     "low": 26.7,
+     "high": 53.2,
+     "n": 18,
+     "confidence": "medium"
+    }
+   },
+   "verdicts": {
+    "true": 13,
+    "mostly_true": 30,
+    "mixed": 9,
+    "mostly_false": 9,
+    "false": 5
+   },
+   "unresolvable": 35,
+   "verdicts_by_type": {
+    "factual": {
+     "true": 10,
+     "mostly_true": 29,
+     "mixed": 6,
+     "mostly_false": 3,
+     "false": 0
+    },
+    "promise": {
+     "true": 0,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "guidance": {
+     "true": 0,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "prediction": {
+     "true": 3,
+     "mostly_true": 1,
+     "mixed": 3,
+     "mostly_false": 6,
+     "false": 5
+    }
+   },
+   "unresolvable_by_type": {
+    "factual": 25,
+    "promise": 0,
+    "guidance": 0,
+    "prediction": 10
+   },
+   "judged": 101,
+   "disagree": 53,
+   "x_claims": 30,
+   "respond_url": "https://epistacklabs.com/request-access?subject=s_81c7a622055e",
+   "generated_at": "2026-11-04",
+   "mix": {
+    "factual": 48,
+    "prediction": 18
+   }
+  },
+  {
+   "id": "s_0ead3f3cdc47",
+   "name": "Peter Thiel",
+   "kind": "person",
+   "score": 71.2,
+   "low": 63.5,
+   "high": 78.5,
+   "n": 55,
+   "confidence": "medium",
+   "types": {
+    "factual": {
+     "score": 71.2,
+     "low": 63.5,
+     "high": 78.5,
+     "n": 55,
+     "confidence": "medium"
+    },
+    "promise": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 0,
+     "confidence": "none"
+    },
+    "guidance": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 0,
+     "confidence": "none"
+    },
+    "prediction": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 0,
+     "confidence": "none"
+    }
+   },
+   "verdicts": {
+    "true": 10,
+    "mostly_true": 34,
+    "mixed": 7,
+    "mostly_false": 4,
+    "false": 0
+   },
+   "unresolvable": 16,
+   "verdicts_by_type": {
+    "factual": {
+     "true": 10,
+     "mostly_true": 34,
+     "mixed": 7,
+     "mostly_false": 4,
+     "false": 0
+    },
+    "promise": {
+     "true": 0,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "guidance": {
+     "true": 0,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "prediction": {
+     "true": 0,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    }
+   },
+   "unresolvable_by_type": {
+    "factual": 16,
+    "promise": 0,
+    "guidance": 0,
+    "prediction": 0
+   },
+   "judged": 71,
+   "disagree": 41,
+   "x_claims": 0,
+   "respond_url": "https://epistacklabs.com/request-access?subject=s_0ead3f3cdc47",
+   "generated_at": "2026-10-30",
+   "mix": {
+    "factual": 55
+   }
+  },
+  {
+   "id": "s_ccfc8e81c06f",
+   "name": "Ray Dalio",
+   "kind": "person",
+   "score": 76.4,
+   "low": 70.9,
+   "high": 81.7,
+   "n": 91,
+   "confidence": "high",
+   "types": {
+    "factual": {
+     "score": 77.1,
+     "low": 71.1,
+     "high": 82.8,
+     "n": 80,
+     "confidence": "high"
+    },
+    "promise": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 0,
+     "confidence": "none"
+    },
+    "guidance": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 0,
+     "confidence": "none"
+    },
+    "prediction": {
+     "score": 71.7,
+     "low": 56.4,
+     "high": 85.6,
+     "n": 11,
+     "confidence": "low"
+    }
+   },
+   "verdicts": {
+    "true": 34,
+    "mostly_true": 45,
+    "mixed": 4,
+    "mostly_false": 7,
+    "false": 1
+   },
+   "unresolvable": 34,
+   "verdicts_by_type": {
+    "factual": {
+     "true": 29,
+     "mostly_true": 40,
+     "mixed": 4,
+     "mostly_false": 7,
+     "false": 0
+    },
+    "promise": {
+     "true": 0,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "guidance": {
+     "true": 0,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "prediction": {
+     "true": 5,
+     "mostly_true": 5,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 1
+    }
+   },
+   "unresolvable_by_type": {
+    "factual": 28,
+    "promise": 0,
+    "guidance": 0,
+    "prediction": 6
+   },
+   "judged": 125,
+   "disagree": 50,
+   "x_claims": 14,
+   "respond_url": "https://epistacklabs.com/request-access?subject=s_ccfc8e81c06f",
+   "generated_at": "2026-11-04",
+   "mix": {
+    "factual": 80,
+    "prediction": 11
+   }
+  },
+  {
+   "id": "s_373152c0dbf8",
+   "name": "Ray Kurzweil",
+   "kind": "person",
+   "score": 66.9,
+   "low": 60.5,
+   "high": 73.1,
+   "n": 81,
+   "confidence": "high",
+   "types": {
+    "factual": {
+     "score": 69.3,
+     "low": 62.3,
+     "high": 76.0,
+     "n": 70,
+     "confidence": "high"
+    },
+    "promise": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 0,
+     "confidence": "none"
+    },
+    "guidance": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 0,
+     "confidence": "none"
+    },
+    "prediction": {
+     "score": 51.7,
+     "low": 35.3,
+     "high": 68.0,
+     "n": 11,
+     "confidence": "low"
+    }
+   },
+   "verdicts": {
+    "true": 25,
+    "mostly_true": 28,
+    "mixed": 9,
+    "mostly_false": 18,
+    "false": 1
+   },
+   "unresolvable": 35,
+   "verdicts_by_type": {
+    "factual": {
+     "true": 22,
+     "mostly_true": 27,
+     "mixed": 8,
+     "mostly_false": 12,
+     "false": 1
+    },
+    "promise": {
+     "true": 0,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "guidance": {
+     "true": 0,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "prediction": {
+     "true": 3,
+     "mostly_true": 1,
+     "mixed": 1,
+     "mostly_false": 6,
+     "false": 0
+    }
+   },
+   "unresolvable_by_type": {
+    "factual": 32,
+    "promise": 0,
+    "guidance": 0,
+    "prediction": 3
+   },
+   "judged": 117,
+   "disagree": 69,
+   "x_claims": 0,
+   "respond_url": "https://epistacklabs.com/request-access?subject=s_373152c0dbf8",
+   "generated_at": "2026-11-03",
+   "mix": {
+    "factual": 70,
+    "prediction": 11
+   }
+  },
+  {
+   "id": "s_39768a8c16b2",
+   "name": "Rodney Brooks",
+   "kind": "person",
+   "score": 81.3,
+   "low": 76.1,
+   "high": 86.2,
+   "n": 87,
+   "confidence": "high",
+   "types": {
+    "factual": {
+     "score": 82.8,
+     "low": 77.4,
+     "high": 87.9,
+     "n": 79,
+     "confidence": "high"
+    },
+    "promise": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 1,
+     "confidence": "none"
+    },
+    "guidance": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 0,
+     "confidence": "none"
+    },
+    "prediction": {
+     "score": 66.7,
+     "low": 48.9,
+     "high": 83.1,
+     "n": 8,
+     "confidence": "low"
+    }
+   },
+   "verdicts": {
+    "true": 42,
+    "mostly_true": 39,
+    "mixed": 4,
+    "mostly_false": 2,
+    "false": 1
+   },
+   "unresolvable": 28,
+   "verdicts_by_type": {
+    "factual": {
+     "true": 36,
+     "mostly_true": 38,
+     "mixed": 4,
+     "mostly_false": 1,
+     "false": 0
+    },
+    "promise": {
+     "true": 1,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "guidance": {
+     "true": 0,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "prediction": {
+     "true": 5,
+     "mostly_true": 1,
+     "mixed": 0,
+     "mostly_false": 1,
+     "false": 1
+    }
+   },
+   "unresolvable_by_type": {
+    "factual": 25,
+    "promise": 0,
+    "guidance": 0,
+    "prediction": 3
+   },
+   "judged": 116,
+   "disagree": 50,
+   "x_claims": 44,
+   "respond_url": "https://epistacklabs.com/request-access?subject=s_39768a8c16b2",
+   "generated_at": "2026-11-04",
+   "mix": {
+    "factual": 79,
+    "prediction": 8
+   }
+  },
+  {
+   "id": "s_0eac185cbfdb",
+   "name": "Sam Altman",
+   "kind": "person",
+   "score": 81.2,
+   "low": 76.1,
+   "high": 86.0,
+   "n": 87,
+   "confidence": "high",
+   "types": {
+    "factual": {
+     "score": 82.7,
+     "low": 77.2,
+     "high": 87.9,
+     "n": 77,
+     "confidence": "high"
+    },
+    "promise": {
+     "score": 69.4,
+     "low": 49.3,
+     "high": 87.4,
+     "n": 5,
+     "confidence": "low"
+    },
+    "guidance": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 0,
+     "confidence": "none"
+    },
+    "prediction": {
+     "score": 69.4,
+     "low": 49.3,
+     "high": 87.4,
+     "n": 5,
+     "confidence": "low"
+    }
+   },
+   "verdicts": {
+    "true": 41,
+    "mostly_true": 40,
+    "mixed": 4,
+    "mostly_false": 2,
+    "false": 0
+   },
+   "unresolvable": 19,
+   "verdicts_by_type": {
+    "factual": {
+     "true": 37,
+     "mostly_true": 34,
+     "mixed": 4,
+     "mostly_false": 2,
+     "false": 0
+    },
+    "promise": {
+     "true": 2,
+     "mostly_true": 3,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "guidance": {
+     "true": 0,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "prediction": {
+     "true": 2,
+     "mostly_true": 3,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    }
+   },
+   "unresolvable_by_type": {
+    "factual": 15,
+    "promise": 1,
+    "guidance": 0,
+    "prediction": 3
+   },
+   "judged": 106,
+   "disagree": 40,
+   "x_claims": 36,
+   "respond_url": "https://epistacklabs.com/request-access?subject=s_0eac185cbfdb",
+   "generated_at": "2026-11-04",
+   "mix": {
+    "factual": 77,
+    "promise": 5,
+    "prediction": 5
+   }
+  },
+  {
+   "id": "s_2fa85e2cb5cd",
+   "name": "Satya Nadella",
+   "kind": "person",
+   "score": 81.9,
+   "low": 76.9,
+   "high": 86.5,
+   "n": 95,
+   "confidence": "high",
+   "types": {
+    "factual": {
+     "score": 82.9,
+     "low": 77.5,
+     "high": 88.0,
+     "n": 78,
+     "confidence": "high"
+    },
+    "promise": {
+     "score": 77.4,
+     "low": 65.3,
+     "high": 88.2,
+     "n": 17,
+     "confidence": "medium"
+    },
+    "guidance": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 0,
+     "confidence": "none"
+    },
+    "prediction": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 4,
+     "confidence": "none"
+    }
+   },
+   "verdicts": {
+    "true": 48,
+    "mostly_true": 43,
+    "mixed": 5,
+    "mostly_false": 3,
+    "false": 0
+   },
+   "unresolvable": 23,
+   "verdicts_by_type": {
+    "factual": {
+     "true": 38,
+     "mostly_true": 34,
+     "mixed": 4,
+     "mostly_false": 2,
+     "false": 0
+    },
+    "promise": {
+     "true": 8,
+     "mostly_true": 8,
+     "mixed": 0,
+     "mostly_false": 1,
+     "false": 0
+    },
+    "guidance": {
+     "true": 0,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "prediction": {
+     "true": 2,
+     "mostly_true": 1,
+     "mixed": 1,
+     "mostly_false": 0,
+     "false": 0
+    }
+   },
+   "unresolvable_by_type": {
+    "factual": 20,
+    "promise": 3,
+    "guidance": 0,
+    "prediction": 0
+   },
+   "judged": 123,
+   "disagree": 42,
+   "x_claims": 46,
+   "respond_url": "https://epistacklabs.com/request-access?subject=s_2fa85e2cb5cd",
+   "generated_at": "2026-11-04",
+   "mix": {
+    "factual": 78,
+    "promise": 17
+   }
+  },
+  {
+   "id": "s_3ea8cb344be1",
+   "name": "Scott Alexander",
+   "kind": "person",
+   "score": 74.6,
+   "low": 68.7,
+   "high": 80.5,
+   "n": 79,
+   "confidence": "high",
+   "types": {
+    "factual": {
+     "score": 80.1,
+     "low": 71.7,
+     "high": 87.9,
+     "n": 35,
+     "confidence": "medium"
+    },
+    "promise": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 2,
+     "confidence": "none"
+    },
+    "guidance": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 0,
+     "confidence": "none"
+    },
+    "prediction": {
+     "score": 70.3,
+     "low": 61.7,
+     "high": 78.5,
+     "n": 44,
+     "confidence": "medium"
+    }
+   },
+   "verdicts": {
+    "true": 39,
+    "mostly_true": 26,
+    "mixed": 8,
+    "mostly_false": 2,
+    "false": 6
+   },
+   "unresolvable": 62,
+   "verdicts_by_type": {
+    "factual": {
+     "true": 15,
+     "mostly_true": 17,
+     "mixed": 3,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "promise": {
+     "true": 2,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "guidance": {
+     "true": 0,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "prediction": {
+     "true": 22,
+     "mostly_true": 9,
+     "mixed": 5,
+     "mostly_false": 2,
+     "false": 6
+    }
+   },
+   "unresolvable_by_type": {
+    "factual": 34,
+    "promise": 0,
+    "guidance": 0,
+    "prediction": 28
+   },
+   "judged": 144,
+   "disagree": 57,
+   "x_claims": 0,
+   "respond_url": "https://epistacklabs.com/request-access?subject=s_3ea8cb344be1",
+   "generated_at": "2026-11-04",
+   "mix": {
+    "factual": 35,
+    "prediction": 44
+   }
+  },
+  {
+   "id": "s_e6a0360ddf0b",
+   "name": "Steven Pinker",
+   "kind": "person",
+   "score": 73.3,
+   "low": 67.6,
+   "high": 78.8,
+   "n": 97,
+   "confidence": "high",
+   "types": {
+    "factual": {
+     "score": 73.3,
+     "low": 67.5,
+     "high": 78.8,
+     "n": 97,
+     "confidence": "high"
+    },
+    "promise": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 1,
+     "confidence": "none"
+    },
+    "guidance": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 0,
+     "confidence": "none"
+    },
+    "prediction": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 1,
+     "confidence": "none"
+    }
+   },
+   "verdicts": {
+    "true": 24,
+    "mostly_true": 55,
+    "mixed": 15,
+    "mostly_false": 5,
+    "false": 0
+   },
+   "unresolvable": 48,
+   "verdicts_by_type": {
+    "factual": {
+     "true": 22,
+     "mostly_true": 55,
+     "mixed": 15,
+     "mostly_false": 5,
+     "false": 0
+    },
+    "promise": {
+     "true": 1,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "guidance": {
+     "true": 0,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "prediction": {
+     "true": 1,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    }
+   },
+   "unresolvable_by_type": {
+    "factual": 46,
+    "promise": 2,
+    "guidance": 0,
+    "prediction": 0
+   },
+   "judged": 147,
+   "disagree": 79,
+   "x_claims": 47,
+   "respond_url": "https://epistacklabs.com/request-access?subject=s_e6a0360ddf0b",
+   "generated_at": "2026-11-04",
+   "mix": {
+    "factual": 97
+   }
+  },
+  {
+   "id": "s_a97f01afa2c0",
+   "name": "Tyler Cowen",
+   "kind": "person",
+   "score": 79.9,
+   "low": 74.7,
+   "high": 85.0,
+   "n": 93,
+   "confidence": "high",
+   "types": {
+    "factual": {
+     "score": 79.9,
+     "low": 74.6,
+     "high": 85.0,
+     "n": 93,
+     "confidence": "high"
+    },
+    "promise": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 0,
+     "confidence": "none"
+    },
+    "guidance": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 0,
+     "confidence": "none"
+    },
+    "prediction": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 4,
+     "confidence": "none"
+    }
+   },
+   "verdicts": {
+    "true": 45,
+    "mostly_true": 37,
+    "mixed": 9,
+    "mostly_false": 6,
+    "false": 0
+   },
+   "unresolvable": 24,
+   "verdicts_by_type": {
+    "factual": {
+     "true": 44,
+     "mostly_true": 34,
+     "mixed": 9,
+     "mostly_false": 6,
+     "false": 0
+    },
+    "promise": {
+     "true": 0,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "guidance": {
+     "true": 0,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "prediction": {
+     "true": 1,
+     "mostly_true": 3,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    }
+   },
+   "unresolvable_by_type": {
+    "factual": 23,
+    "promise": 1,
+    "guidance": 0,
+    "prediction": 0
+   },
+   "judged": 121,
+   "disagree": 49,
+   "x_claims": 42,
+   "respond_url": "https://epistacklabs.com/request-access?subject=s_a97f01afa2c0",
+   "generated_at": "2026-11-04",
+   "mix": {
+    "factual": 93
+   }
+  },
+  {
+   "id": "s_fed0baaff72c",
+   "name": "Vinod Khosla",
+   "kind": "person",
+   "score": 69.8,
+   "low": 62.3,
+   "high": 77.1,
+   "n": 52,
+   "confidence": "high",
+   "types": {
+    "factual": {
+     "score": 72.3,
+     "low": 63.8,
+     "high": 80.4,
+     "n": 43,
+     "confidence": "medium"
+    },
+    "promise": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 0,
+     "confidence": "none"
+    },
+    "guidance": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 0,
+     "confidence": "none"
+    },
+    "prediction": {
+     "score": 57.7,
+     "low": 40.1,
+     "high": 74.7,
+     "n": 9,
+     "confidence": "low"
+    }
+   },
+   "verdicts": {
+    "true": 15,
+    "mostly_true": 25,
+    "mixed": 5,
+    "mostly_false": 5,
+    "false": 2
+   },
+   "unresolvable": 38,
+   "verdicts_by_type": {
+    "factual": {
+     "true": 12,
+     "mostly_true": 22,
+     "mixed": 5,
+     "mostly_false": 4,
+     "false": 0
+    },
+    "promise": {
+     "true": 0,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "guidance": {
+     "true": 0,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "prediction": {
+     "true": 3,
+     "mostly_true": 3,
+     "mixed": 0,
+     "mostly_false": 1,
+     "false": 2
+    }
+   },
+   "unresolvable_by_type": {
+    "factual": 34,
+    "promise": 0,
+    "guidance": 0,
+    "prediction": 4
+   },
+   "judged": 91,
+   "disagree": 41,
+   "x_claims": 41,
+   "respond_url": "https://epistacklabs.com/request-access?subject=s_fed0baaff72c",
+   "generated_at": "2026-11-04",
+   "mix": {
+    "factual": 43,
+    "prediction": 9
+   }
+  },
+  {
+   "id": "s_87a640a3f68c",
+   "name": "Warren Buffett",
+   "kind": "person",
+   "score": 80.6,
+   "low": 75.2,
+   "high": 85.6,
+   "n": 78,
+   "confidence": "high",
+   "types": {
+    "factual": {
+     "score": 83.2,
+     "low": 76.5,
+     "high": 89.3,
+     "n": 51,
+     "confidence": "high"
+    },
+    "promise": {
+     "score": 73.5,
+     "low": 59.4,
+     "high": 86.3,
+     "n": 13,
+     "confidence": "low"
+    },
+    "guidance": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 1,
+     "confidence": "none"
+    },
+    "prediction": {
+     "score": 77.8,
+     "low": 64.8,
+     "high": 89.3,
+     "n": 14,
+     "confidence": "low"
+    }
+   },
+   "verdicts": {
+    "true": 41,
+    "mostly_true": 32,
+    "mixed": 4,
+    "mostly_false": 0,
+    "false": 2
+   },
+   "unresolvable": 69,
+   "verdicts_by_type": {
+    "factual": {
+     "true": 29,
+     "mostly_true": 17,
+     "mixed": 4,
+     "mostly_false": 0,
+     "false": 1
+    },
+    "promise": {
+     "true": 6,
+     "mostly_true": 6,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 1
+    },
+    "guidance": {
+     "true": 0,
+     "mostly_true": 1,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "prediction": {
+     "true": 6,
+     "mostly_true": 8,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    }
+   },
+   "unresolvable_by_type": {
+    "factual": 34,
+    "promise": 16,
+    "guidance": 2,
+    "prediction": 17
+   },
+   "judged": 149,
+   "disagree": 71,
+   "x_claims": 0,
+   "respond_url": "https://epistacklabs.com/request-access?subject=s_87a640a3f68c",
+   "generated_at": "2026-11-04",
+   "mix": {
+    "factual": 51,
+    "promise": 13,
+    "prediction": 14
+   }
+  },
+  {
+   "id": "s_38c49bf8f7a9",
+   "name": "Yann LeCun",
+   "kind": "person",
+   "score": 76.9,
+   "low": 71.2,
+   "high": 82.4,
+   "n": 84,
+   "confidence": "high",
+   "types": {
+    "factual": {
+     "score": 77.7,
+     "low": 71.7,
+     "high": 83.4,
+     "n": 79,
+     "confidence": "high"
+    },
+    "promise": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 0,
+     "confidence": "none"
+    },
+    "guidance": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 0,
+     "confidence": "none"
+    },
+    "prediction": {
+     "score": 63.9,
+     "low": 43.1,
+     "high": 83.1,
+     "n": 5,
+     "confidence": "low"
+    }
+   },
+   "verdicts": {
+    "true": 23,
+    "mostly_true": 55,
+    "mixed": 3,
+    "mostly_false": 2,
+    "false": 1
+   },
+   "unresolvable": 34,
+   "verdicts_by_type": {
+    "factual": {
+     "true": 23,
+     "mostly_true": 50,
+     "mixed": 3,
+     "mostly_false": 2,
+     "false": 1
+    },
+    "promise": {
+     "true": 0,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "guidance": {
+     "true": 0,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "prediction": {
+     "true": 0,
+     "mostly_true": 5,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    }
+   },
+   "unresolvable_by_type": {
+    "factual": 31,
+    "promise": 1,
+    "guidance": 0,
+    "prediction": 2
+   },
+   "judged": 119,
+   "disagree": 60,
+   "x_claims": 68,
+   "respond_url": "https://epistacklabs.com/request-access?subject=s_38c49bf8f7a9",
+   "generated_at": "2026-11-04",
+   "mix": {
+    "factual": 79,
+    "prediction": 5
+   }
+  },
+  {
+   "id": "s_388ce7df2c3c",
+   "name": "Ørsted",
+   "kind": "organisation",
+   "score": 69.6,
+   "low": 61.2,
+   "high": 77.6,
+   "n": 29,
+   "confidence": "medium",
+   "types": {
+    "factual": {
+     "score": 83.8,
+     "low": 72.8,
+     "high": 93.2,
+     "n": 16,
+     "confidence": "medium"
+    },
+    "promise": {
+     "score": 60.0,
+     "low": 40.1,
+     "high": 79.0,
+     "n": 6,
+     "confidence": "low"
+    },
+    "guidance": {
+     "score": null,
+     "low": null,
+     "high": null,
+     "n": 0,
+     "confidence": null
+    },
+    "prediction": {
+     "score": 45.5,
+     "low": 26.7,
+     "high": 64.6,
+     "n": 7,
+     "confidence": "low"
+    }
+   },
+   "verdicts": {
+    "true": 15,
+    "mostly_true": 8,
+    "mixed": 1,
+    "mostly_false": 1,
+    "false": 4
+   },
+   "unresolvable": 20,
+   "verdicts_by_type": {
+    "factual": {
+     "true": 12,
+     "mostly_true": 3,
+     "mixed": 1,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "promise": {
+     "true": 1,
+     "mostly_true": 4,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 1
+    },
+    "guidance": {
+     "true": 0,
+     "mostly_true": 0,
+     "mixed": 0,
+     "mostly_false": 0,
+     "false": 0
+    },
+    "prediction": {
+     "true": 2,
+     "mostly_true": 1,
+     "mixed": 0,
+     "mostly_false": 1,
+     "false": 3
+    }
+   },
+   "unresolvable_by_type": {
+    "factual": 8,
+    "promise": 9,
+    "guidance": 0,
+    "prediction": 3
+   },
+   "judged": 49,
+   "disagree": 14,
+   "x_claims": 0,
+   "respond_url": "https://epistacklabs.com/request-access?subject=s_388ce7df2c3c",
+   "generated_at": "2026-10-10",
+   "mix": {
+    "factual": 16,
+    "promise": 6,
+    "prediction": 7
+   }
+  }
+ ],
+ "funnel": {
+  "factual": {
+   "extracted": 7440,
+   "researched": 3064,
+   "resolved": 2204
+  },
+  "promise": {
+   "extracted": 290,
+   "researched": 207,
+   "resolved": 129
+  },
+  "guidance": {
+   "extracted": 14,
+   "researched": 11,
+   "resolved": 8
+  },
+  "prediction": {
+   "extracted": 2631,
+   "researched": 533,
+   "resolved": 343
+  }
+ },
+ "sources": {
+  "x": {
+   "mixed": 28,
+   "mostly_true": 138,
+   "true": 189,
+   "false": 5,
+   "unresolvable": 171,
+   "mostly_false": 21
+  },
+  "web": {
+   "mixed": 224,
+   "mostly_true": 1066,
+   "true": 787,
+   "mostly_false": 169,
+   "false": 57,
+   "unresolvable": 960
+  }
+ }
+}
