@@ -14,7 +14,7 @@ not accuracy. The method, its measured results and its caveats: https://epistack
 
 ## Releases
 
-Each release is a folder (`v1/`, `v1.1/`, `v1.1.1/`, ...) with:
+Each release is a folder (`v1/`, `v1.1/`, `v1.1.1/`, `v1.1.2/`, ...) with:
 
 - `subjects.csv`: one row per subject, with the latest report and how to reply (`respond_url`).
 - `scores.csv`: one row per subject and claim type (and overall): score, interval, resolved count, confidence.
@@ -27,7 +27,7 @@ Each release is a folder (`v1/`, `v1.1/`, `v1.1.1/`, ...) with:
 - `datapackage.json` (the columns) and `README.md` (what the release is, its method version, measured results,
   caveats, scope and licence).
 
-`CHANGELOG.md` lists the releases and what changed between them. The latest is `v1.1.1`.
+`CHANGELOG.md` lists the releases and what changed between them. The latest is `v1.1.2`.
 
 ## Look a subject up
 
@@ -49,4 +49,4 @@ or counter-evidence, with the form at the foot of the claim's own page on https:
 ## Licence
 
 CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Quotes are short, attributed and linked to their
-source; no page text is included. Cite as: Reliability dataset v1.1.1, epistacklabs.com, 2026.
+source; no page text is included. Cite as: Reliability dataset v1.1.2, epistacklabs.com, 2026.
