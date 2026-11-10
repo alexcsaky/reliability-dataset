@@ -1,0 +1,46 @@
+# Copies a release to the Hugging Face dataset whenever one lands here, so publishing is one push to this repository.
+# Runs when a commit on main changes a release folder (v*/), the README or the changelog, and can be started by hand
+# from the Actions tab for any release already in the repository. Uploads the newest release folder (or the one
+# named by hand), the dataset card and the changelog. Needs the repository secret HF_TOKEN: a Hugging Face token
+# that can write to the dataset alexcsaky/reliability-dataset.
+name: huggingface
+on:
+  push:
+    branches: [main]
+    paths: ["v*/**", "README.md", "CHANGELOG.md"]
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Release folder to upload, for example v1.1.2 (empty: the newest)"
+        required: false
+permissions:
+  contents: read
+concurrency:
+  group: huggingface
+  cancel-in-progress: false
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install "huggingface_hub==2.3.0"
+      - name: Choose the release
+        id: pick
+        env:
+          ASKED: ${{ inputs.version }}
+        run: |
+          version="$ASKED"
+          if [ -z "$version" ]; then
+            version=$(ls -d v[0-9]* | sort -V | tail -1)
+          fi
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+          echo "Uploading $version"
+      - name: Upload to Hugging Face
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          VERSION: ${{ steps.pick.outputs.version }}
+        run: python .github/scripts/hf_upload.py alexcsaky/reliability-dataset "$VERSION"
