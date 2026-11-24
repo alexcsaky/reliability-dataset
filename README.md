@@ -1,7 +1,7 @@
 # Reliability dataset
 
 Reliability scores for public figures and organisations, with every claim, verdict and evidence link behind them,
-built by the Reliability API (https://epistacklabs.com). A subject's public statements are sampled, the checkable
+built by the Reliability API (https://etaklabs.com). A subject's public statements are sampled, the checkable
 claims are checked against the public record, and each claim carries a verdict linked to its quote and its
 evidence. The score is the share of resolved claims that held up, for each kind of claim (factual claims,
 predictions, promises, company guidance), with an 80% interval and a confidence level. Predictions are scored on
@@ -10,7 +10,7 @@ within one kind of claim, and only at medium or high confidence.
 
 Verdicts are made automatically and are not individually reviewed by a person. Two model judges from different
 model families judge each claim; `judges_disagree` marks where they differed. Two judges agreeing is consistency,
-not accuracy. The method, its measured results and its caveats: https://epistacklabs.com/methodology.
+not accuracy. The method, its measured results and its caveats: https://etaklabs.com/methodology.
 
 ## Releases
 
@@ -33,9 +33,9 @@ Each release is a folder (`v1/`, `v1.1/`, `v1.1.1/`, `v1.1.2/`, ...) with:
 
 No key needed:
 
-    curl "https://epistacklabs.com/v1/lookup?name=Jensen%20Huang"
+    curl "https://etaklabs.com/v1/lookup?name=Jensen%20Huang"
 
-Or read every claim in a browser at https://epistacklabs.com/explore.
+Or read every claim in a browser at https://etaklabs.com/explore.
 
 ## Scope and right of reply
 
@@ -43,10 +43,10 @@ Public figures and organisations only, from their public professional output; no
 inferred motives; neutral wording throughout. Politicians and officials are covered like anyone else, and
 party-political claims are tagged `political` and scored like any other claim (from release v1.1; v1 left some
 out of scores, as its README says). A subject, or someone acting for them, can reply to any claim with a correction
-or counter-evidence, with the form at the foot of the claim's own page on https://epistacklabs.com (the
+or counter-evidence, with the form at the foot of the claim's own page on https://etaklabs.com (the
 `respond_url` on their row explains how replies work).
 
 ## Licence
 
 CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Quotes are short, attributed and linked to their
-source; no page text is included. Cite as: Reliability dataset v1.1.2, epistacklabs.com, 2026.
+source; no page text is included. Cite as: Reliability dataset v1.1.2, etaklabs.com, 2026.
